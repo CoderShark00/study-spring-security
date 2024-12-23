@@ -20,7 +20,6 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableWebSecurity // 시큐리티 설정임 이렇게하면 스프링 시큐리티에서 관리됨.
 public class SecurityConfig {
 
-
     @Bean
     public BCryptPasswordEncoder bCryptPasswordEncoder() {
 
